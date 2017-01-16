@@ -1,0 +1,365 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-dic-2016, 22:15:09
+    Author     : carle
+*/
+
+
+
+
+
+
+.letraA, .letraB,  .letraO, .letraD, .letracc, .letraE, .letraF, .letraG, .letraH, .letraI, .letraJ, .letraK, .letraL, .letraM, .letraN, .letraP, .letraQ, .letraR, .letraS, .letraT, .letraU, .letraV, .letraW, .letraY, .letraX, .letraZ{
+   height:50px;
+   width:50px;
+   border-radius:60px;
+   border:solid silver 3px;
+   text-align: center;
+   font-size: 40px;
+   background-color:#0174DF;
+   margin:auto;
+   box-shadow: inset 0 0 15px 0 maroon;
+   
+}
+
+input{
+   display:block;
+   width:50%;
+   text-align:center;
+   margin:auto;
+   margin-top:20px;
+   height:34px;
+   padding:6px 12px;font-size:16px;
+   line-height:1.42857143;
+   color:#555;
+   background-color:#fff;
+   background-image:none;
+   border:1px solid #ccc;
+   border-radius:4px;
+   -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+   box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+   -webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+   -o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+   transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+ 
+body{
+    
+ background: linear-gradient( 90deg, silver, white, silver);
+    
+}
+#boton{
+  color:#fff;
+  background-color:#337ab7;
+  border-color:#2e6da4;
+  width: 90px;
+  height: 40px;
+  font-size: 15px;
+  margin-left: 160px;
+  margin-top: 5px;
+    
+}
+#respons{
+    
+   border: solid;
+   opacity:0.5;
+   margin-top:390px;
+   margin:;
+   font-size:18px;
+   margin-left: -320px;
+   background-color:red;
+   width: 280px;
+   position:absolute;
+    
+}
+
+#question{
+    text-align: center;
+}
+
+
+#respuesta{
+    
+   border: solid 1px;
+   border-radius:5px;
+   opacity:0.9;
+   margin-top:390px;
+   margin:;
+   font-size:18px;
+   margin-left: -320px;
+   background-color:red;
+   width: 280px;
+   position:absolute;
+   text-align: center;
+    
+}
+
+#description{
+   
+    font-size:20px;
+    width: 400px;
+    height: 250px;
+    position:absolute;
+    margin-left:-375px;
+    margin-top:225px;
+    border-radius: 20px;box-shadow: inset 0 0 15px 0 blue;
+    //margin:auto;
+    
+}
+
+hr{
+   margin-top:-10px;
+
+   }
+  
+   
+   .ok, .fallo{
+      width:80px;
+      height:70px; 
+      margin-top:55px;
+      position:absolute;
+      margin-left:-895px;
+      opacity:0.5; 
+   }
+   
+   .fallo{
+       
+        margin-left:-758px; 
+       
+   }
+   
+   .play{
+       
+       position:absolute;
+       margin-left:300px;
+       margin-top:600px;
+        font-size:25px;
+       color:#fff;
+       background-color:#f0ad4e;
+       border-color:#eea236;
+       width: 120px;
+       height: 50px;
+   }
+   
+   .stop{
+      margin-left:450px; 
+       margin-top:600px;
+       font-size:25px;
+      color:#fff;
+      background-color:#d9534f;
+      border-color:#d43f3a;
+      width: 120px;
+      height: 50px;
+      position:absolute; 
+   }
+   
+.marcador{
+    
+  font-family: DS-Digital;
+  font-size: 70px;
+  position: absolute;
+  margin-left:-925px;
+  margin-top: -10px;  
+  box-shadow: inset 0 0 15px 0 blue;
+  height: 150px;
+}
+
+#aciertos, #fallos{
+  font-family: DS-Digital;
+  font-size: 100px; 
+  position: absolute; 
+  margin-left:-925px;
+  margin-top: 50px;  
+  height: 90px;
+  width: 140px;
+ 
+  color:;
+  box-shadow: inset 0 0 15px 0 blue;
+}
+
+#f, #a{
+    
+    margin-left:40px;
+}
+
+#fallos{
+  margin-left:-785px;
+  width: 134px;
+}
+
+#displayReloj{
+ color:black; 
+ font-family: DS-Digital; 
+ font-size:45px; 
+ padding:5px;
+ margin-top: -76px;
+ margin-left:140px;
+ position:absolute;
+   
+}
+
+#crono{
+    position:absolute;
+    text-align: center;
+    font-family: DS-Digital; 
+    font-size:20px;
+    margin-top:150px;
+    margin-left: 650px;
+    
+}
+
+
+
+.letraA{
+    
+    margin-left:800px;
+}
+.letraB{
+    margin-top:-35px;
+    margin-left:895px;
+    position:absolute;
+}
+
+.letraC, .letracc{
+    margin-top:0px;
+    margin-left:970px; 
+   
+}
+.letra{
+    margin-top:500px;
+    margin-left:-10px;
+    color:white;
+   background: linear-gradient( 90deg,white, white, silver, silver);
+   opacity:0.5;
+}
+
+.letraD{
+  margin-top:-535px;
+  margin-left:75px;
+ 
+    }
+    
+.letraE{
+    margin-left:135px;    
+    margin-top:30px;  
+        
+    }
+ .letraF{
+    margin-left:170px;   
+    margin-top:40px;
+        
+    }
+ 
+ .letraG{
+      margin-left:175px;     
+      margin-top: 50px;
+    }
+  
+ .letraH{
+    margin-left:153px;     
+    margin-top:40px;   
+    }
+    
+ .letraI{
+   margin-left:110px;        
+   margin-top:30px;     
+    }
+    
+  .letraJ{
+   margin-left:50px;        
+   margin-top:12px;     
+    }
+    
+  .letraK{
+   margin-left:-20px;        
+   margin-top:-5px;      
+           
+    }
+   
+ .letraL{
+   margin-left:-110px;        
+   margin-top:-25px;      
+        
+    }
+ 
+.letraM{
+   margin-left:-200px;        
+   margin-top:-45px;      
+   position:absolute;         
+    }
+ .letraN{
+   margin-left:-290px;        
+   margin-top:-57px;      
+   position:absolute;         
+    }
+  .letraO{
+   margin-left:-380px;        
+   margin-top:-90px;      
+   position:absolute;         
+    }
+  .letraP{
+   margin-left:-455px;        
+   margin-top:-150px;      
+            
+    }
+  .letraQ{
+   margin-left:-515px;        
+   margin-top:-125px;      
+            
+    }
+    
+ .letraR{
+   margin-left:-552px;        
+   margin-top:-135px;      
+            
+    }
+    
+   .letraS{
+   margin-left:-570px;        
+   margin-top:-140px;      
+            
+    }
+  
+   .letraT{
+   margin-left:-568px;        
+   margin-top:-150px;      
+            
+    }
+    
+  .letraU{
+   margin-left:-545px;        
+   margin-top:-140px;      
+            
+    }
+  
+ .letraV{
+   margin-left:-505px;        
+   margin-top:-130px;      
+            
+    }
+ .letraW{
+   margin-left:-455px;        
+   margin-top:-115px;      
+            
+    }
+  .letraY{
+   margin-left:-400px;        
+   margin-top:-100px;      
+            
+    }
+  .letraX{
+   margin-left:-330px;        
+   margin-top:-85px;      
+            
+    }
+ .letraZ{
+   margin-left:-255px;        
+   margin-top:-65px;      
+            
+    }
+     
+     

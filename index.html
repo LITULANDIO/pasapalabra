@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>PASAPALABRA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!--<script src="pasapalabra.js" type="text/javascript"></script>-->
+       <link href="pasapalabra.css" rel="stylesheet" type="text/css"/>
+       <script src="jquery-3.1.1.min.js" type="text/javascript"></script>
+       <script src="pasapalabra.js" type="text/javascript"></script>
+       <script src="pasapalabra_b.js" type="text/javascript"></script>
+       <script src="pasapalabra_c.js" type="text/javascript"></script>
+       <script src="pasapalabra_d.js" type="text/javascript"></script>
+       <script src="pasapalabra_e.js" type="text/javascript"></script>
+       <script src="pasapalabra_f.js" type="text/javascript"></script>
+       <script src="pasapalabra_g.js" type="text/javascript"></script>
+       <script src="pasapalabra_h.js" type="text/javascript"></script>
+       <script src="pasapalabra_i.js" type="text/javascript"></script>
+       <script src="pasapalabra_j.js" type="text/javascript"></script>
+       <script src="pasapalabra_l.js" type="text/javascript"></script>
+       <script src="pasapalabra_k.js" type="text/javascript"></script>
+       <script src="pasapalabra_m.js" type="text/javascript"></script>
+       <script src="pasapalabra_n.js" type="text/javascript"></script>
+       <script src="pasapalabra_o.js" type="text/javascript"></script>
+       <script src="pasapalabra_p.js" type="text/javascript"></script>
+       <script src="pasapalabra_q.js" type="text/javascript"></script>
+       <script src="pasapalabra_r.js" type="text/javascript"></script>
+       <script src="pasapalabra_s.js" type="text/javascript"></script>
+       <script src="pasapalabra_t.js" type="text/javascript"></script>
+       <script src="pasapalabra_u.js" type="text/javascript"></script>
+       <script src="pasapalabra_v.js" type="text/javascript"></script>
+       <script src="pasapalabra_w.js" type="text/javascript"></script>
+       <script src="pasapalabra_x.js" type="text/javascript"></script>
+       <script src="pasapalabra_y.js" type="text/javascript"></script>
+       <script src="pasapalabra_z.js" type="text/javascript"></script>
+    </head>
+    
+    <body>
+	
+   <div id="crono">
+    <h1>TIEMPO:</h1>
+   <div id ="displayReloj" >   </div>
+   </div>
+        
+        
+        <div class="general"></div>
+        <div class="letraA">A</div>
+        <div class="letraB">B</div>  
+        <div class="letracc">C</div>
+        <div class="letraC"><div>
+        <div class="letra">O</div>
+        <div class="letraD">D</div>
+        <div class="letraE">E</div>
+        <div class="letraF">F</div>
+        <div class="letraG">G</div>
+        <div class="letraH">H</div>
+        <div class="letraI">I</div>
+        <div class="letraJ">J</div>
+        <div class="letraK">K</div>
+        <div class="letraL">L</div>
+        <div class="letraM">M</div>
+        <div class="letraN">N</div>
+        <div class="letraO">O</div>
+        <div class="letraP">P</div>
+        <div class="letraQ">Q</div>
+        <div class="letraR">R</div>
+        <div class="letraS">S</div>
+        <div class="letraT">T</div>
+        <div class="letraU">U</div>
+        <div class="letraV">V</div>
+        <div class="letraW">W</div>
+        <div class="letraY">Y</div>
+        <div class="letraX">X</div>
+        <div class="letraZ">Z</div>
+        
+        
+        <div id="description">
+        
+            	
+        </br></br>
+	 <form  name="form_prod" id="form" method="Post">	
+        <label> <input  type="text" id="palabra" size="15" maxlength="30" placeholder="palabra..." name="nombre" value=""></label>
+        <button  type="button" id="boton" onclick="recibir();" >Responder</button>
+         </form>
+        <p id="question"></p>
+        </div>
+        
+        <div id="respuesta" ></div>
+        
+        <div class="marcador">MARCADOR<hr><p></p>
+        </div>
+		
+        <img class="ok" src="img/ok.jpg" > 
+        <img class="fallo" src="img/fallo.jpg" > 
+		
+        <div> <button type="button" class="play" onclick="empezar()">Empezar</button></div> 
+        <div> <button type="button" class="stop" onclick="salir()">Salir</button></div> 
+        
+        <div id="aciertos"><span id="a">0</span></div>
+        
+        <div id="fallos"><span id="f">0</span></div>
+        
+        
+        
+       </body>
+</html>
