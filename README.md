@@ -3,7 +3,7 @@
 Basta con clonarte el proyecto:
 
 ```
-https://github.com/LITULANDIO/pasapalabra.git
+git clone https://github.com/LITULANDIO/pasapalabra.git
 ```
 
 Tienes que abrir el index.html con el navegador que quieras y podràs empezar el juego.
